@@ -19,6 +19,7 @@ function Tag(){
         <div className='w-1/2 h-[470px] bg-blue-500 gap-y-5 mt-[15px] rounded-lg border border-black 
         flex flex-col items-center '>
             <h1 className='underline text-2xl uppercase font-bold'> Random {tag} Gif</h1>
+          
              {
                 loading?<Spinner></Spinner>:
                 <img src={gif} width="450" height='30' className='w-1/2 h-3/5' alt=''></img>
